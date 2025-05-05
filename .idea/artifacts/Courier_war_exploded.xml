@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Courier:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Courier_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Courier" />
+          <element id="library" level="project" name="lib" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+          <element id="library" level="project" name="commons-io-1.4" />
+          <element id="library" level="project" name="fastjson-1.2.72" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Courier/web/Web" />
+    </root>
+  </artifact>
+</component>
